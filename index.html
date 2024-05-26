@@ -9,19 +9,19 @@
 <body>
   <h1>Welcome to our system</h1>
   <div class="bigdiv">
-    <div>
+    <div onclick="playSound('dog-sound')">
       <img src="dog.jpg" alt="Dog">
     </div>
-    <div>
+    <div onclick="playSound('cat-sound')">
       <img src="cat.png" alt="Cat">
     </div>
-    <div>
+    <div onclick="playSound('chicken-sound')">
       <img src="chicken.png" alt="Chicken">
     </div>
-    <div>
+    <div onclick="playSound('bee-sound')">
       <img src="bee.png" alt="Bee">
     </div>
-    <div>
+    <div onclick="playSound('camel-sound')">
       <img src="camel.png" alt="Camel">
     </div>
   </div>
@@ -42,13 +42,7 @@
     <source src="CAMEL.mpeg" type="audio/mpeg">
   </audio>
 
-  <div class="btns">
-    <button onclick="playSound('dog-sound')">dog</button>
-    <button onclick="playSound('cat-sound')">cat</button>
-    <button onclick="playSound('chicken-sound')">chicken</button>
-    <button onclick="playSound('bee-sound')">bee</button>
-    <button onclick="playSound('camel-sound')">camel</button>
-  </div>
+
 
   <script src="file.js"></script>
 </body>
