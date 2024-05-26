@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fun Teach System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to our system</h1>
+  <div class="bigdiv">
+    <div>
+      <img src="dog.jpg" alt="Dog">
+    </div>
+    <div>
+      <img src="cat.png" alt="Cat">
+    </div>
+    <div>
+      <img src="chicken.png" alt="Chicken">
+    </div>
+    <div>
+      <img src="bee.png" alt="Bee">
+    </div>
+    <div>
+      <img src="camel.png" alt="Camel">
+    </div>
+  </div>
+
+  <audio id="dog-sound">
+    <source src="DOG.mpeg" type="audio/mpeg">
+  </audio>
+  <audio id="cat-sound">
+    <source src="CAT.mpeg" type="audio/mpeg">
+  </audio>
+  <audio id="chicken-sound">
+    <source src="Chicken.mpeg" type="audio/mpeg">
+  </audio>
+  <audio id="bee-sound">
+    <source src="BEE.mpeg" type="audio/mpeg">
+  </audio>
+  <audio id="camel-sound">
+    <source src="CAMEL.mpeg" type="audio/mpeg">
+  </audio>
+
+  <div class="btns">
+    <button onclick="playSound('dog-sound')">dog</button>
+    <button onclick="playSound('cat-sound')">cat</button>
+    <button onclick="playSound('chicken-sound')">chicken</button>
+    <button onclick="playSound('bee-sound')">bee</button>
+    <button onclick="playSound('camel-sound')">camel</button>
+  </div>
+
+  <script src="file.js"></script>
+</body>
+</html>
