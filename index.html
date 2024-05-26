@@ -9,23 +9,36 @@
 <body>
   <h1>Welcome to our system</h1>
   <div class="bigdiv">
-    <div onclick="playSound('dog-sound')">
+    <div onclick="playSound('dog-sound')" style="width: 20%;">
       <img src="dog.jpg" alt="Dog">
     </div>
-    <div onclick="playSound('cat-sound')">
+    <div onclick="playSound('cat-sound')" style="width: 20%;">
       <img src="cat.png" alt="Cat">
     </div>
-    <div onclick="playSound('chicken-sound')">
+    <div onclick="playSound('chicken-sound')" style="width: 20%;">
       <img src="chicken.png" alt="Chicken">
     </div>
-    <div onclick="playSound('bee-sound')">
+    <div onclick="playSound('bee-sound')" style="width: 20%;">
       <img src="bee.png" alt="Bee">
     </div>
-    <div onclick="playSound('camel-sound')">
+    <div onclick="playSound('camel-sound')" style="width: 20%;">
       <img src="camel.png" alt="Camel">
     </div>
   </div>
-
+  <nav>>
+    <div class="NavBar">
+      <ul class="Categories">
+        <li class="Category" onclick="slider(0)">dog</li>
+        <li  class="Category" onclick="slider(1)">cat</li>
+        <li  class="Category" onclick="slider(2)">chicken</li>
+        <li  class="Category" onclick="slider(3)">bee</li>
+        <li  class="Category" onclick="slider(4)">camel</li>
+      </ul>
+      <div class="cart">
+       <a href="cart.html"><img src="./Images/1.jpg" class="cartimg" alt=""></a> 
+      </div>
+    </div>
+  </nav>
   <audio id="dog-sound">
     <source src="DOG.mpeg" type="audio/mpeg">
   </audio>

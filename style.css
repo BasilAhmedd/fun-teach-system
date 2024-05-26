@@ -9,6 +9,20 @@ div{
   height: 200px;
   display: flex ;
 }
+.Categories{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 20px;
+}
+.Category{
+  margin-right: 20px;
+  font-size: 20px;
+  border: 2px solid;
+  cursor: pointer;
+  padding: 10px 20px;
+
+}
 img{
   background-color: black;
   border-radius: 30px;
@@ -16,11 +30,15 @@ img{
   border-color: black;
 }
 .bigdiv{
+  width: 500vw;
+  transition: all ease 1.5s;
   display: flex;
   align-content: space-between;
-  width: 100%;
 }
-
+html{
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
 button{
   display: flex;
   margin: 50px;
