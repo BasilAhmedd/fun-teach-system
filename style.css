@@ -8,7 +8,12 @@ div{
   width: 100%;
   height: 200px;
   display: flex ;
-  border-radius: 10px;
+}
+img{
+  background-color: black;
+  border-radius: 30px;
+  border: 10px;
+  border-color: black;
 }
 .bigdiv{
   display: flex;
